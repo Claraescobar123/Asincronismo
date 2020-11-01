@@ -2,9 +2,12 @@
   "name": "asincronismo",
   "version": "1.0.0",
   "description": "trabajar con asincronismo en js",
-  "main": "index.js",
+  "main": "asincronismo/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node asincronismo/callback/index.js",
+    "callback:challenge": "node asincronismo/callback/challenge.js",
+    "promise": "node asincronismo/promise/index.js",
+    "promise:challenge": "node asincronismo/promise/challenge.js"
   },
   "keywords": [
     "callbacks",
@@ -12,5 +15,8 @@
     "async"
   ],
   "author": "Clara Escobar",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
